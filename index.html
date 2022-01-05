@@ -34,7 +34,7 @@
        display: flex;
        margin: 4%;
        padding: 2%;
-       box-shadow: inset 0 0 12px blue;
+       
     }
     p {
        font-family: "Courier Monospace";
@@ -133,7 +133,7 @@
       <h5 class="fw-normal">Welcome</h5>
       <h1 class="fw-light mb-4">I'm <b class="fg-theme">Parul</b> Keshav</h1>
       <div>
-        <p id="text"></p>
+        <p id="textt"></p>
         <p>|</p>
         </div>
       <div class="badge">Web Developer</div>
@@ -699,14 +699,14 @@
     </div>
   </div> <!-- End footer -->
   <script>
-    const words = ["Nulla", "facilisi", "Cras sed odio sed leo laoreet molestie id non purus.."];
+    const words = ["Parul Keshav", "Web Developer", "in own zone"];
     let i = 0;
     let counter;
     function typeNow() {
        let word = words[i].split("");
        var loopTyping = function() {
           if (word.length > 0) {
-             document.getElementById('text').innerHTML += word.shift();
+             document.getElementById('textt').innerHTML += word.shift();
           } else {
              deleteNow();
              return false;
@@ -720,7 +720,7 @@
        var loopDeleting = function() {
           if (word.length > 0) {
              word.pop();
-             document.getElementById('text').innerHTML = word.join("");
+             document.getElementById('textt').innerHTML = word.join("");
           } else {
              if (words.length > (i + 1)) {
                 i++;
