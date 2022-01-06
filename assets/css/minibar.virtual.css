@@ -582,14 +582,14 @@
 .vg-footer .form-control {
     padding-left: 20px;
     padding-right: 20px;
-    background-color: #202334;
+    background-color: #61636e;
     color: #9FA2AB;
     border: 0;
     box-shadow: 0 2px 8px rgba(16, 18, 27, 0.6);
 }
 
 .vg-footer .form-control:focus {
-    box-shadow: 0 2px 8px rgba(16, 18, 27, 0.6);
+    box-shadow: 0 2px 8px rgba(86, 89, 102, 0.6);
 }
 
 .vg-footer form .btn-theme {
